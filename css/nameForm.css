@@ -1,3 +1,13 @@
+.form input {
+  background-color: inherit;
+  border: none;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.form input::placeholder {
+  color: white;
+}
+
 .greeting {
   font-size: 25px;
 }
