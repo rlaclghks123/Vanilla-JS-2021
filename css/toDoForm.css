@@ -1,0 +1,24 @@
+.toDoForm input:hover,
+.toDoForm input:active,
+.toDoForm input:visited {
+  outline: none;
+  color: none;
+}
+.toDoForm ::placeholder {
+  color: white;
+}
+.toDoForm {
+  border-bottom: 1px solid white;
+}
+.toDoForm input {
+  margin-left: 20px;
+  background-color: inherit;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+.js-ToDoList button {
+  background-color: inherit;
+  border: none;
+  margin-left: 10px;
+}

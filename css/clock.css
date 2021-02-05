@@ -1,0 +1,12 @@
+.js-clock h1 {
+  margin-top: 250px;
+  font-size: 80px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

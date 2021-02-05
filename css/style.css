@@ -1,3 +1,7 @@
+@import "weather.css";
+@import "clock.css";
+@import "nameForm.css";
+@import "toDoForm.css";
 .form,
 .greeting {
   display: none;
@@ -16,9 +20,12 @@
 .bgImage {
   position: absolute;
   top: 0;
-  bottom: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   animation: fadeIn 0.1s linear;
   z-index: -1;
+}
+body {
+  color: white;
 }
