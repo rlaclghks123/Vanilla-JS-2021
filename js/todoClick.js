@@ -3,13 +3,15 @@ const toDoIcon =document.getElementById("toDoContents__icon");
 const toDoContent=document.getElementById("toDoContents");
 
 
+function clickList(event){
+    toDoContent.style.opacity="1";
+}
+function clickArrow(event){
+    toDoContent.style.opacity="0";
+}
 
 function init(){
-    toDoTitle.addEventListener("click", function(){
-        toDoContent.style.opacity="1";
-    })
-    toDoIcon.addEventListener("click",function(){
-        toDoContent.style.opacity="0";
-    })
+    toDoTitle.addEventListener("click", clickList);
+    toDoIcon.addEventListener("click",clickArrow);
 }
 init();
