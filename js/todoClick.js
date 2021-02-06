@@ -3,10 +3,10 @@ const toDoIcon =document.getElementById("toDoContents__icon");
 const toDoContent=document.getElementById("toDoContents");
 
 
-function clickList(event){
+function clickList(){
     toDoContent.style.opacity="1";
 }
-function clickArrow(event){
+function clickArrow(){
     toDoContent.style.opacity="0";
 }
 
