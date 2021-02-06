@@ -8,7 +8,7 @@ function paintImg(imgNumber){
 }
 
 function genNumber(){
-    const number = Math.ceil(Math.random()*8);
+    const number = Math.ceil(Math.random()*6);
     return number;
 }
 

@@ -3,10 +3,14 @@
   font-size: 80px;
   font-weight: 600;
   margin-bottom: 0;
+  box-sizing: border-box;
 }
+
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  top: 100px;
+  left: 600px;
 }
